@@ -3,24 +3,28 @@ import { createRouter, createWebHistory } from 'vue-router';
 // Pages
 import Home from '../components/pages/Home.vue';
 import About from '../components/pages/About.vue';
+import Contact from '../components/pages/Contact.vue';
 
 // Layout
-import DefaultLayout from '../components/layouts/DefaultLayout.vue';
+//import DefaultLayout from '../components/layouts/DefaultLayout.vue';
+import App from '../components/App.vue';
 
 const routes = [
-  {
-    path: '/',
-    component: DefaultLayout,
-    children: [
+  {path: '/',component:  App, children: [
       {
         path: '',
         name: 'Home',
         component: Home,
       },
       {
-        path: 'about',
+        path: '/about',
         name: 'About',
         component: About,
+      },
+      {
+        path: '/contact',
+        name: 'Contact',
+        component: Contact,
       },
     ],
   },
