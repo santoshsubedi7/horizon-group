@@ -6,23 +6,25 @@ import About from '../components/pages/About.vue';
 import Contact from '../components/pages/Contact.vue';
 
 // Layout
-//import DefaultLayout from '../components/layouts/DefaultLayout.vue';
-import App from '../components/App.vue';
+import DefaultLayout from '../components/layouts/DefaultLayout.vue';
 
 const routes = [
-  {path: '/',component:  App, children: [
+  {
+    path: '/',
+    component: DefaultLayout,
+    children: [
       {
         path: '',
         name: 'Home',
         component: Home,
       },
       {
-        path: '/about',
+        path: 'about',
         name: 'About',
         component: About,
       },
       {
-        path: '/contact',
+        path: 'contact',
         name: 'Contact',
         component: Contact,
       },
