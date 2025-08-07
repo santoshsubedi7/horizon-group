@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/pages/Home.vue';
 import About from '../components/pages/About.vue';
 import Contact from '../components/pages/Contact.vue';
+import Service from '../components/pages/Service.vue'
 
 // Layout
 import DefaultLayout from '../components/layouts/DefaultLayout.vue';
@@ -27,6 +28,11 @@ const routes = [
         path: 'contact',
         name: 'Contact',
         component: Contact,
+      },
+      {
+        path: 'service',
+        name: 'Service',
+        component: Service,
       },
     ],
   },

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-1 min-w-[300px] max-w-[350px]">
+    <div class="flex-1 mx-auto md:mx-auto-none">
       <div class="flex items-center">
         <img :src="logoImg" alt="Horizon Group Logo" class="w-[50px] h-[50px] mb-2" />
         <div class="ml-4">
@@ -15,7 +15,7 @@
         <p class="text-[13px] leading-[1.4] my-[3px]">info@horizongroup.co.jp</p>
       </address>
     </div>
-  </template>
+      </template>
   
   <script>
   import logoImg from '../../../../assets/logo.svg';
@@ -26,4 +26,11 @@
     },
   };
   </script>
+  <style>
+  @media screen {
+    .f_Brand{
+      border-bottom: solid 1px #333;
+    }
+  }
+</style>
   

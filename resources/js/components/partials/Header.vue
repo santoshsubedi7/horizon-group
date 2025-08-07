@@ -19,8 +19,5 @@ export default {
 </script>
 
 <style scoped>
-header {
-  position: relative;
-  z-index: 1000;
-}
+
 </style>

@@ -1,7 +1,8 @@
 <template>
     <nav class="footer-nav">
-      <ul class="flex gap-4 m-0 p-0 list-none inline-flex">
-        <li v-for="link in links" :key="link.text">
+      <h4 class="md:hidden font-bold border-b">links</h4>
+      <ul class="gap-4 m-0 p-0 list-none md:inline-flex">
+        <li v-for="link in links" :key="link.text" class="py-2 md:0">
           <a href="#" class="footer-nav-link text-[14px] relative text-[#595D61] font-normal hover:!text-[#0D0F11] transition-all duration-200 ease-in-out">
             {{ link.text }}
           </a>
@@ -44,6 +45,11 @@
   }
   .footer-nav-link:hover::after {
     transform: scaleX(1);
+  }
+  @media (max-width: 1025px){
+    .footer-nav{
+      width: 100%;
+    }
   }
   </style>
   

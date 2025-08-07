@@ -9,7 +9,26 @@
 @tailwind utilities;
 
 
-@theme {
+/* @theme {
     --font-sans: 'M PLUS 1', 'Roboto','Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+} */
+
+:root {
+  --font-sans: 'M PLUS 1', 'Roboto', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+body {
+  font-family: var(--font-sans);
+  color: #595D61;
+}
+h1, h2 {
+  color: #0D0F11;
+}
+h3, h4 {
+  color: #3A3F44;
+}
+h5 {
+  color: #96999B;
+}
+
+
