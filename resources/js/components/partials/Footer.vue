@@ -1,9 +1,12 @@
 <template>
     <div class="font-main bg-[#F2F2F2] pt-10 pb-5 md:px-16 border-t border-[#ddd]">
-      <div class="flex flex-col md:flex-row justify-between items-start gap-10 flex-wrap px-8 py-6">
+      <div class="relative flex flex-col md:flex-row justify-between items-start gap-10 flex-wrap px-8 py-6">
         <FooterBrand />
-        <FooterNav />
-        <SocialIcons />
+        <div class="lg:ml-auto lg:self-end">
+          <FooterNav />
+          <SocialIcons />
+        </div>
+        
       </div>
       <hr class="border-gray-300 mt-2" />
       <FooterLegal />
