@@ -18,12 +18,12 @@
       return {
         links: [
           { text: 'ご挨拶', to: '/greeting' },
-          { text: '登録鑑' },
-          { text: 'サービス' },
-          { text: '教育業務' },
-          { text: 'お知らせ' },
-          { text: '会社概要' },
-          { text: 'お問い合わせ' },
+          // { text: '登録鑑' },
+          // { text: 'サービス' },
+          // { text: '教育業務' },
+          // { text: 'お知らせ' },
+          // { text: '会社概要' },
+          // { text: 'お問い合わせ' },
         ],
       };
     },
@@ -31,13 +31,18 @@
   </script>
   
   <style scoped>
+.footer-nav-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+
   .footer-nav-link::after {
     content: "";
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    height: 1.5px;
+    height: 1px;
     background: #00B1E6;
     transform: scaleX(0);
     transform-origin: center;

@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-4 py-10">
+  <section class="md:w-[75%] mx-auto px-4 md:px-0 py-10">
     <div class="mx-auto px-4 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       
       <!-- Left column -->

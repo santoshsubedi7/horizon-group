@@ -1,6 +1,6 @@
 <template>
   <section class="py-32 bg-gray-100">
-    <div class="container mx-auto px-4">
+    <div class="md:w-[75%] mx-auto px-4">
       <!-- Title -->
       <div class="text-center mb-10">
         <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">SERVICE FLOW</h2>
