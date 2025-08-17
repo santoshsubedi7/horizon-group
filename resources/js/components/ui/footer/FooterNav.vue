@@ -18,12 +18,12 @@
       return {
         links: [
           { text: 'ご挨拶', to: '/greeting' },
-          // { text: '登録鑑' },
-          // { text: 'サービス' },
-          // { text: '教育業務' },
-          // { text: 'お知らせ' },
-          // { text: '会社概要' },
-          // { text: 'お問い合わせ' },
+          { text: '登録鑑' },
+          { text: 'サービス', to:"/service" },
+          { text: '教育業務', to:"career_academy"},
+          { text: 'お知らせ', to:"news_list" },
+          { text: '会社概要', to:"/about"},
+          { text: 'お問い合わせ', to:"/contact" },
         ],
       };
     },

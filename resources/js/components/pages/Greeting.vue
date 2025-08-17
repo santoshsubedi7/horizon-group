@@ -11,9 +11,9 @@
         </div>
         <!-- ご挨拶 -->
         <div class=" lg:w-[75%] mx-auto p-4 lg:p-16 mt-16">
-            <div class="flex">
+            <div class="flex justify-center">
                 <span class="relative pb-4 text-sm lg:text-base pr-2"><font-awesome-icon :icon="['fas', 'quote-left']" /></span>
-                <h4 class="pb-6">成長を志す外国籍の皆様と、世界へ羽ばたく企業様をつなぐ架け橋を目指しております</h4>
+                <h4 class="pb-6 font-semibold">成長を志す外国籍の皆様と、世界へ羽ばたく企業様をつなぐ架け橋を目指しております</h4>
                 <span class="relative pb-4 pl-2"><font-awesome-icon :icon="['fas', 'quote-right']" /></span>
             </div>
                 
