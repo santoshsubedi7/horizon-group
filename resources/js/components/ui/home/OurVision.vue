@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import OurVisionImg from '../../../../assets/images/our_vision.jpg';
+import OurVisionImg from '@assets/images/our_vision.jpg';
 
 export default{
     data (){

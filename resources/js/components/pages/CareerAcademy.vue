@@ -1,7 +1,7 @@
 <template>
     <section class="w-full mt-48">
         <!-- page title -->
-        <div class="w-[75%] mx-auto pb-9">
+        <div class="lg:w-[75%] mx-auto px-7 lg:px-0 pb-9 page_title">
             <h1 class="font-semibold">CAREER ACADEMY</h1>
             <p class="font-semibold">教育業務</p>
         </div>
@@ -9,19 +9,19 @@
 
     <section>
         <hr class="border-t border-gray-300">
-        <div class="w-[75%] mx-auto">
+        <div class="lg:w-[75%] mx-auto px-7 lg:px-0">
             <Breadcrumbs :items="breadcrumbsItems" />
         </div>
     </section>
 
-    <section class="flex flex-col md:flex-row items-start gap-6 p-6 md:p-12 w-[75%] mx-auto">
-        <!-- Image -->
-        <div class="w-full md:w-1/2">
+    <!-- Image -->
+    <section class="flex flex-col lg:flex-row items-start gap-6 p-7 lg:p-12 lg:w-[75%] mx-auto">
+        <div class="w-full lg:w-1/2">
             <div class="bg-gray-200 w-full h-0 pb-[60%] rounded-lg"></div>
         </div>
 
         <!-- Text -->
-        <div class="w-full md:w-1/2">
+        <div class="w-full lg:w-1/2">
             <h2 class="font-bold text-lg md:text-xl mb-3">HORIZON CAREER ACADEMYとは?</h2>
             <p class="text-sm md:text-base leading-relaxed mb-4">
                 HORIZON CAREER ACADEMYは、日本で活躍できる人材不足問題の解決を目指し、
@@ -101,3 +101,10 @@ export default {
 }
 
 </script>
+<style scoped>
+@media (max-width:1023px){
+    .page_title h1{
+        font-size: 36px;
+    }
+}
+</style>

@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import ghCurriculum01 from '../../../../assets/images/hg-curriculum01.jpg';
-import ghCurriculum02 from '../../../../assets/images/hg-Curriculum02.jpg';
-import ghCurriculum03 from '../../../../assets/images/hg-curriculum03.jpg';
-import ghCurriculum04 from '../../../../assets/images/hg-curriculum04.jpg';
+import ghCurriculum01 from '@assets/images/hg-curriculum01.jpg';
+import ghCurriculum02 from '@assets/images/hg-Curriculum02.jpg';
+import ghCurriculum03 from '@assets/images/hg-curriculum03.jpg';
+import ghCurriculum04 from '@assets/images/hg-curriculum04.jpg';
 
 export default {
   name: "Curriculum",

@@ -86,9 +86,9 @@
 
 <!-- javascript -->
 <script setup>
-import officeImage from '../../../assets/images/office.jpg';
 import Breadcrumbs from '../ui/breadcrumbs/Breadcrumbs.vue';
-import HgLocationBuilding from '../../../assets/images/hg-location-building.jpg'
+import officeImage from '@assets/images/office.jpg';
+import HgLocationBuilding from '@assets/images/hg-location-building.jpg'
 
 const breadcrumbItems = [
     { label: 'ホーム', to: '/' },

@@ -13,7 +13,7 @@
       共に支え、高めあうことができますよう、全身全霊でサポートいたします。
     </p>
     <div class="flex flex-col sm:flex-row gap-3 md:gap-5 justify-center items-center 2xl:mt-9">
-          <BlackBtn class="btn-lg text-xs sm:text-sm md:text-base">企業方へお問い合わせ</BlackBtn>
+          <router-link to="/contact_company"><BlackBtn class="btn-lg text-xs sm:text-sm md:text-base">企業方へお問い合わせ</BlackBtn></router-link>
           <BlueBtn class="btn-lg text-xs sm:text-sm md:text-base">求人方へお問い合わせ</BlueBtn>
     </div>
   </div>

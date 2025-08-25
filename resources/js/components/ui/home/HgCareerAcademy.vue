@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import careerImg01 from '../../../../assets/images/hg-career-img-01.jpg';
-import careerImg02 from '../../../../assets/images/hg-career-img-02.jpg';
-import careerImg03 from '../../../../assets/images/hg-career-img-03.jpg';
+import careerImg01 from '@assets/images/hg-career-img-01.jpg';
+import careerImg02 from '@assets/images/hg-career-img-02.jpg';
+import careerImg03 from '@assets/images/hg-career-img-03.jpg';
 
 export default {
   name: "HgCareerAcademy",

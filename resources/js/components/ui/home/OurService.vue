@@ -124,8 +124,8 @@
 </template>
 
 <script setup>
-import buildingImg from '../../../../assets/images/hb-building-img.jpg';
-import businessMeetingImg from '../../../../assets/images/hb-business-img.jpg';
-import studentImg from '../../../../assets/images/hb-student.jpg';
-import translationImg from '../../../../assets/images/hg-translation.jpg';
+import buildingImg from '@assets/images/hb-building-img.jpg';
+import businessMeetingImg from '@assets/images/hb-business-img.jpg';
+import studentImg from '@assets/images/hb-student.jpg';
+import translationImg from '@assets/images/hg-translation.jpg';
 </script>

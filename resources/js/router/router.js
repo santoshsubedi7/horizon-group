@@ -14,6 +14,7 @@ import CareerAcademy from '../components/pages/CareerAcademy.vue';
 import NewsList from '../components/pages/NewsList.vue';
 import PrivacyPolicy from '../components/pages/PrivacyPolicy.vue'
 import CookiePolicy from '../components/pages/CookiePolicy.vue';
+import CompanyContactForm from '../components/pages/CompanyContactForm.vue';
 
 
 
@@ -22,15 +23,9 @@ const routes = [
     path: '/',
     component: DefaultLayout,
     children: [
-      {
-        path: '', name: 'Home', component: Home,
-      },
-      {
-        path: 'about', name: 'About', component: About,
-      },
-      {
-        path: 'contact', name: 'Contact', component: Contact,
-      },
+      { path: '', name: 'Home', component: Home,},
+      { path: 'about', name: 'About', component: About,},
+      { path: 'contact', name: 'Contact', component: Contact,},
       { path: 'service', name: 'Service', component: Service, },
       { path: 'faq', name: 'Faq', component: Faq, },
       { path: 'greeting', name: 'Greeting', component: Greeting, },
@@ -38,6 +33,8 @@ const routes = [
       { path: 'news_list', name: 'News_List', component: NewsList, },
       { path: 'privacy_policy', name: 'Privacy Policy', component: PrivacyPolicy,},
       { path: 'cookie_policy', name: 'Cookie Policy', component: CookiePolicy,},
+      { path: 'contact_company', name: 'Contact_Company', component: CompanyContactForm,},
+      
     ],
   },
 ];

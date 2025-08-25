@@ -26,9 +26,7 @@
                   お気軽にご連絡ください。
                </p>
                <div class="mt-6">
-                  <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition">
-                     フォームお問い合わせ
-                  </button>
+                  <BlackButton><router-link to="/contact_company">フォームお問い合わせ</router-link></BlackButton>
                </div>
             </div>
          </div>
@@ -46,9 +44,7 @@
                   採用のご要望や詳細について、お気軽にお問い合わせください。
                </p>
                <div class="mt-6">
-                  <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition">
-                     フォームお問い合わせ
-                  </button>
+                  <BlackButton><router-link>フォームお問い合わせ</router-link></BlackButton>
                </div>
             </div>
          </div>
@@ -56,6 +52,6 @@
       </div>
    </section>
 </template>
-<script>
-
+<script setup>
+ import BlackButton from '../ui/button/BlackButton.vue';
 </script>

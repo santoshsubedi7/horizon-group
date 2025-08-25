@@ -37,8 +37,8 @@
 </template>
 
 <script>
-import staffProfile01 from '../../../../assets/images/staff-profile01.jpg';
-import staffProfile02 from '../../../../assets/images/staff-profile02.jpg';
+import staffProfile01 from '@assets/images/staff-profile01.jpg';
+import staffProfile02 from '@assets/images/staff-profile02.jpg';
 
 export default {
   name: "StaffProfilePc",
