@@ -44,7 +44,7 @@
                   採用のご要望や詳細について、お気軽にお問い合わせください。
                </p>
                <div class="mt-6">
-                  <BlackButton><router-link>フォームお問い合わせ</router-link></BlackButton>
+                  <BlackButton><router-link to="/contact_recruit">フォームお問い合わせ</router-link></BlackButton>
                </div>
             </div>
          </div>

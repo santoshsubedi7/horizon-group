@@ -15,6 +15,7 @@ import NewsList from '../components/pages/NewsList.vue';
 import PrivacyPolicy from '../components/pages/PrivacyPolicy.vue'
 import CookiePolicy from '../components/pages/CookiePolicy.vue';
 import CompanyContactForm from '../components/pages/CompanyContactForm.vue';
+import RecruitContactForm from '../components/pages/RecruitContactForm.vue';
 
 
 
@@ -34,6 +35,7 @@ const routes = [
       { path: 'privacy_policy', name: 'Privacy Policy', component: PrivacyPolicy,},
       { path: 'cookie_policy', name: 'Cookie Policy', component: CookiePolicy,},
       { path: 'contact_company', name: 'Contact_Company', component: CompanyContactForm,},
+      { path: 'contact_recruit', name: 'Contact_Recruit', component: RecruitContactForm,},
       
     ],
   },
