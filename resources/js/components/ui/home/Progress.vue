@@ -1,7 +1,7 @@
 <template>
   <section 
     ref="counterSection" 
-    class="w-full bg-white py-12"
+    class="md:w-[75%] px-4 md:px-0 mx-auto bg-white py-12"
   >
     <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
       <div v-for="(item, index) in counters" :key="index" class="flex flex-col items-center">

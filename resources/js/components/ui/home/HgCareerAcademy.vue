@@ -1,5 +1,5 @@
 <template>
-  <section class="md:w-[75%] mx-auto px-4 md:px-0 py-10">
+  <section class="xl:w-[75%] xl:mx-auto px-6 xl:px-0 py-10">
     <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">CAREER ACADEMY</h2>
     <h6 class="text-center mb-8 font-semibold">教育業務</h6>
     <div class="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

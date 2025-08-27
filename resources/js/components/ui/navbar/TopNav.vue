@@ -8,7 +8,7 @@
       <a href="#" aria-label="Facebook" class="hover:opacity-80 hidden md:block"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
       <a href="#" aria-label="TikTok" class="hover:opacity-80 hidden md:block"><font-awesome-icon :icon="['fab', 'tiktok']" /></a>
       <a href="#" aria-label="Twitter/X" class="hover:opacity-80 hidden md:block"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a>
-      <button class="w-[64px] text-white text-right hover:underline" @click="toggleLanguage">
+      <button class="w-[64px] pr-8 md:pr-0 text-white text-right hover:underline" @click="toggleLanguage">
         {{ languageLabel }}
         <!-- <font-awesome-icon :icon="['fas', 'angle-down']" /> -->
       </button>
