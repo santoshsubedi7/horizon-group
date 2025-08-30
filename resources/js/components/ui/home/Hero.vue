@@ -13,26 +13,27 @@
       共に支え、高めあうことができますよう、全身全霊でサポートいたします。
     </p>
     <div class="flex flex-col sm:flex-row gap-3 md:gap-5 justify-center items-center 2xl:mt-9">
-          <BlackBtn class="btn-lg text-xs sm:text-sm md:text-base">企業方へお問い合わせ</BlackBtn>
-          <BlueBtn class="btn-lg text-xs sm:text-sm md:text-base">求人方へお問い合わせ</BlueBtn>
+          <router-link to="/contact_company"><BlackBtn class="btn-lg text-xs sm:text-sm md:text-base">企業方へお問い合わせ</BlackBtn></router-link>
+          <router-link to="/contact_recruit"><BlueBtn class="btn-lg text-xs sm:text-sm md:text-base">求人方へお問い合わせ</BlueBtn></router-link>
+          
     </div>
   </div>
 </div>
 
     <!-- News Bar -->
-    <div class="news_bar hidden relative z-10 w-full bg-white text-neutral-800 md:flex flex-col md:flex-row justify-between items-center border-t border-neutral-200 px-4 md:px-10 lg:px-16 py-3 text-xs md:text-sm font-main mt-6 gap-2">
+    <div class="news_bar w-[90%] mx-auto hidden relative z-10 bg-white md:flex flex-col md:flex-row justify-between items-center border-t border-neutral-200 px-4 md:px-10 lg:px-16 py-3 text-xs md:text-sm font-main mt-6 gap-2">
       <div class="block md:flex items-center gap-2 md:gap-3 flex-1 min-w-0 overflow-x-auto">
-        <span class="news_bar_title font-bold text-sm md:text-base border-r-0 md:border-r md:border-gray-300 pr-4">NEWS</span>
+        <span class="font-bold text-[#0D0F11] text-sm md:text-base border-r-0 md:border-r md:border-gray-300 w-[100px]">NEWS</span>
         <span class="text-neutral-400">2025.07.17</span>
         <span class="news_bar_category bg-black text-white text-[8px] md:text-xs px-2 py-0.5">お知らせ</span>
         <p class="news_bar_desc ml-2 truncate border-l-0 md:border-l md:border-gray-300 pl-4">
-          <a href="" class="news-links text-[#595D61] hover:!text-[#0D0F11] transition-colors duration-300 ease-in-out">代表をはじめ、スタッフ全員が日本で学び、働き、生活してきた経験がございます。</a>
+          <a href="" class="news-links text-[#595D61] hover:!text-[#0D0F11] transition-colors duration-300 ease-in-out text-[10px] lg:text-sm">代表をはじめ、スタッフ全員が日本で学び、働き、生活してきた経験がございます。</a>
         </p>
       </div>
       <div class="shrink-0 border-l-0 md:border-l md:border-gray-300 pl-4">
-        <a href="#" class="!text-[#0080FF] news-links hover:!text-[#00B1E6] transition-all duration-200 ease-in-out">すべてを見る <font-awesome-icon :icon="['fas', 'arrow-right']" /></a>
+        <a href="#" class="text-[10px] sm:text-xs !text-[#0080FF] news-links hover:!text-[#00B1E6] transition-all duration-200 ease-in-out">すべてを見る <font-awesome-icon :icon="['fas', 'arrow-right']" /></a>
       </div>
-    </div>         
+    </div>          
 
     <!-- Scroll Down -->
 <div class="hidden absolute right-2 md:right-5 top-1/2 transform -translate-y-1/2 z-10 md:flex flex-col items-center opacity-60 select-none">

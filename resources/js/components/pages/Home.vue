@@ -1,9 +1,9 @@
 <template>
   <Hero />
-  <div class="mt-[80px]">
+  <div class="mt-32">
     <OurVision />
   </div>
-  <div class="mt-[80px]">
+  <div class="mt-32">
     <HgStrongPoint />
   </div>
   <div>
@@ -28,7 +28,7 @@
   import HgStrongPoint from '../ui/home/HgStrongPoint.vue';
   import OurService from '../ui/home/OurService.vue';
   import HgCareerAcademy from '../ui/home/HgCareerAcademy.vue';
-  import Progress from '../ui/home/progress.vue';
+  import Progress from '../ui/home/Progress.vue';
   import Curriculum from '../ui/home/Curriculum.vue';
   import Serviceflow from '../ui/home/Serviceflow.vue'
 import faqComponent from '../ui/home/faq.component.vue';

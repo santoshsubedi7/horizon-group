@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-4 py-10">
+  <section class="xl:w-[75%] xl:mx-auto px-6 xl:px-0 py-10">
     <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">CAREER ACADEMY</h2>
     <h6 class="text-center mb-8 font-semibold">教育業務</h6>
     <div class="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import careerImg01 from '../../../../assets/images/hg-career-img-01.jpg';
-import careerImg02 from '../../../../assets/images/hg-career-img-02.jpg';
-import careerImg03 from '../../../../assets/images/hg-career-img-03.jpg';
+import careerImg01 from '@assets/images/hg-career-img-01.jpg';
+import careerImg02 from '@assets/images/hg-career-img-02.jpg';
+import careerImg03 from '@assets/images/hg-career-img-03.jpg';
 
 export default {
   name: "HgCareerAcademy",

@@ -1,6 +1,6 @@
 <template>
-  <section class="container mx-auto px-4 py-10">
-    <div class="mx-auto px-4 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+  <section class="xl:w-[75%] mx-auto px-4 md:px-0 py-10">
+    <div class="mx-auto md:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
       
       <!-- Left column -->
       <div class="flex flex-col justify-between">
@@ -8,7 +8,7 @@
           <h3 class="text-3xl md:text-4xl font-bold text-black">CURRICULUM</h3>
           <h6 class="font-semibold mt-1">カリキュラム</h6>
         </div>
-        <div class="flex">
+        <div class="hidden xl:block">
         <a href="#" class="link flex items-center mt-6 font-medium">
           <span class="pr-4">詳しくはこちら</span>  <font-awesome-icon :icon="['fas', 'arrow-right']" /></a>
         </div>
@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import ghCurriculum01 from '../../../../assets/images/hg-curriculum01.jpg';
-import ghCurriculum02 from '../../../../assets/images/hg-Curriculum02.jpg';
-import ghCurriculum03 from '../../../../assets/images/hg-curriculum03.jpg';
-import ghCurriculum04 from '../../../../assets/images/hg-curriculum04.jpg';
+import ghCurriculum01 from '@assets/images/hg-curriculum01.jpg';
+import ghCurriculum02 from '@assets/images/hg-Curriculum02.jpg';
+import ghCurriculum03 from '@assets/images/hg-curriculum03.jpg';
+import ghCurriculum04 from '@assets/images/hg-curriculum04.jpg';
 
 export default {
   name: "Curriculum",
