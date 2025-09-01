@@ -43,9 +43,12 @@
 
     <!-- View All Link -->
     <div class="flex justify-center mt-8">
-      <a href="#" class="link text-[#0080FF] hover:!text-[#00B1E6]">
+      <router-link to="/faq"  class="link text-[#0080FF] hover:!text-[#00B1E6]">
         すべてを見る <span class="pl-3"><font-awesome-icon :icon="['fas', 'arrow-right']" /></span>
-      </a>
+      </router-link>
+      <!-- <a href="#" class="link text-[#0080FF] hover:!text-[#00B1E6]">
+        すべてを見る <span class="pl-3"><font-awesome-icon :icon="['fas', 'arrow-right']" /></span>
+      </a> -->
       
     </div>
   </section>

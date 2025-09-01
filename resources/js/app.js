@@ -9,10 +9,10 @@ import '../css/app.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faFacebookF, faTiktok, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import {faAngleDown, faArrowRight,faQuoteLeft, faQuoteRight} from '@fortawesome/free-solid-svg-icons';
+import {faAngleDown, faArrowRight,faQuoteLeft, faQuoteRight, faHouse} from '@fortawesome/free-solid-svg-icons';
 
 
-library.add(faFacebookF, faTiktok, faXTwitter, faAngleDown, faArrowRight, faQuoteLeft, faQuoteRight);
+library.add(faFacebookF, faTiktok, faXTwitter, faAngleDown, faArrowRight, faQuoteLeft, faQuoteRight, faHouse);
 
 const app = createApp(App);
 app.use(router)

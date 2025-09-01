@@ -20,12 +20,10 @@
           
           <!-- Footer -->
           <div class="flex justify-between items-center mt-4">
-            <a href="#" class="link text-[#0080FF] text-sm font-medium hover:underline">
-              詳しくはこちら
-            </a>
-            <span class="text-[#0080FF]">
-              <font-awesome-icon :icon="['fas', 'arrow-right']" />
+            <router-link to="career_academy" class="link text-[#0080FF] text-sm font-medium hover:underline"> 
+              詳しくはこちら <span class="text-[#0080FF]"><font-awesome-icon :icon="['fas', 'arrow-right']" />
             </span>
+          </router-link>
           </div>
         </div>
       </div>

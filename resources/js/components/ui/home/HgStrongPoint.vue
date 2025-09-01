@@ -11,7 +11,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-7 lg:gap-8">
         <!-- Card 1 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2"/></svg>
+          <img :src="OurStrengthIcon01" alt="Support Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">外国人職の支援ができる 実績経験に基づくサポート</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             弊社の代表をはじめ、スタッフ全員が日本で留学、就職してきた経験と実績に基づく支援。外国人労働者の実情に寄り添ったサポートに力を入れ、充実した就職活動を実現するよう、広くサポートいたします。
@@ -20,7 +20,7 @@
 
         <!-- Card 2 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+         <img :src="OurStrengthIcon02" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">各国からの留学に関する相談対応</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             提携エージェント制度を導入し、外国籍（ビジネスビザ・アルバイトビザ、留学、日本語・日本生活対応）など幅広いニーズに対応。個別の面談やカウンセリングを提供し、徹底サポートを行っております。
@@ -29,7 +29,7 @@
 
         <!-- Card 3 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12a4 4 0 01-8 0V8a4 4 0 018 0v4z"/><path d="M8 16h8"/></svg>
+          <img :src="OurStrengthIcon03" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">求職者と企業、双方に丁寧で迅速なマッチング</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             仕事の紹介はもちろん、就労前の手続き、相談対応などのフローワークも責任持って行うことで、企業様・求職者様双方に安心感、即時性を提供いたします。
@@ -38,7 +38,7 @@
 
         <!-- Card 4 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+          <img :src="OurStrengthIcon04" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">在留資格・ビザ申請も全面的にサポート</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             就労（留学/技能実習ビザ）の相談実績多数。複雑・多様化するビザ手続きにプロがアドバイスを行い、迅速な対応を実現いたします。
@@ -47,7 +47,7 @@
 
         <!-- Card 5 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 21h4a2 2 0 002-2v-5h4l-8-8-8 8h4v5a2 2 0 002 2z"/></svg>
+          <img :src="OurStrengthIcon05" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">就労後の生活・文化・日本語のフォロー</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             外国人材が安心して働き、暮らせるよう、文化や生活面でのアドバイス、日本語学習サポートなど、多面的に支援を行います。
@@ -56,7 +56,7 @@
 
         <!-- Card 6 -->
         <div class="bg-white rounded-xl shadow-md p-5 sm:p-6 flex flex-col items-start gap-3 sm:gap-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <svg class="w-10 h-10 text-[#00B1E6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6"/></svg>
+          <img :src="OurStrengthIcon06" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">多彩な業界への紹介実績</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
             製造・サービス業、IT、福祉、流通、その他幅広い業界に対応し、企業様のニーズに合わせた人材提案を行います。
@@ -68,7 +68,12 @@
 </template>
 
 <script setup>
-// No JS needed unless you want to make cards dynamic
+import OurStrengthIcon01 from '@assets/images/our_strength_icon-01.svg'
+import OurStrengthIcon02 from '@assets/images/our_strength_icon-02.svg'
+import OurStrengthIcon03 from '@assets/images/our_strength_icon-03.svg'
+import OurStrengthIcon04 from '@assets/images/our_strength_icon-04.svg'
+import OurStrengthIcon05 from '@assets/images/our_strength_icon-05.svg'
+import OurStrengthIcon06 from '@assets/images/our_strength_icon-06.svg'
 </script>
 
 <style scoped>

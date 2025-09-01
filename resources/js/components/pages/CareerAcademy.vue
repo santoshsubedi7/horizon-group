@@ -15,9 +15,11 @@
     </section>
 
     <!-- Image -->
-    <section class="flex flex-col lg:flex-row items-start gap-6 p-7 lg:p-12 lg:w-[75%] mx-auto">
+    <section class="flex flex-col lg:flex-row items-start gap-6 p-7 lg:p-12 lg:w-[75%] mx-auto mt-36">
         <div class="w-full lg:w-1/2">
-            <div class="bg-gray-200 w-full h-0 pb-[60%] rounded-lg"></div>
+            <div class="w-full rounded-lg">
+                <img :src="HgAcademyImg" alt="hg-academy"  class="w-full h-auto md:h-full object-cover rounded-lg">
+            </div>
         </div>
 
         <!-- Text -->
@@ -47,28 +49,36 @@
         <!-- Cards -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col items-center text-center">
-                <div class="w-20 h-20 bg-gray-300 rounded-full mb-4"></div>
+                <div class="w-20 h-20 bg-[#00AEEF] rounded-full mb-4 flex items-center justify-center">
+                    <img :src="AcademySupportIcon01" alt="icon" class="w-14 h-14 object-contain"/>
+                </div>
                 <span class="font-semibold text-lg text-[#3A3F44]">実践的学習</span>
                 <p class="text-sm text-[#00B1E6] font-semibold py-2">コース</p>
                 <p class="text-sm">就職・転職活動を成功させるために必要な実践的なスキルを習得</p>
             </div>
 
             <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col items-center text-center">
-                <div class="w-20 h-20 bg-gray-300 rounded-full mb-4"></div>
+                <div class="w-20 h-20 bg-[#00AEEF] rounded-full mb-4 flex items-center justify-center">
+                    <img :src="AcademySupportIcon02" alt="icon" class="w-14 h-14 object-contain"/>
+                </div>
                 <span class="font-semibold text-lg text-[#3A3F44]">個別サポート</span>
                 <p class="text-sm text-[#00B1E6] font-semibold py-2">コース</p>
                 <p class="text-sm">学生一人ひとりの希望やレベルに応じた個別指導</p>
             </div>
 
             <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col items-center text-center">
-                <div class="w-20 h-20 bg-gray-300 rounded-full mb-4"></div>
+                <div class="w-20 h-20 bg-[#00AEEF] rounded-full mb-4 flex items-center justify-center">
+                    <img :src="AcademySupportIcon03" alt="icon" class="w-14 h-14 object-contain"/>
+                </div>
                 <span class="font-semibold text-lg text-[#3A3F44]">特定技能対応</span>
                 <p class="text-sm text-[#00B1E6] font-semibold py-2">コース</p>
                 <p class="text-sm">特定技能制度に対応した試験対策講座も開講</p>
             </div>
 
             <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col items-center text-center">
-                <div class="w-20 h-20 bg-gray-300 rounded-full mb-4"></div>
+                <div class="w-20 h-20 bg-[#00AEEF] rounded-full mb-4 flex items-center justify-center">
+                    <img :src="AcademySupportIcon04" alt="icon" class="w-14 h-14 object-contain"/>
+                </div>
                 <span class="font-semibold text-lg text-[#3A3F44]">文化理解</span>
                 <p class="text-sm text-[#00B1E6] font-semibold py-2">コース</p>
                 <p class="text-sm">日本での生活マナー・文化の理解を深める</p>
@@ -81,25 +91,20 @@
 </template>
 
 
-<script>
-import Breadcrumbs from '../ui/breadcrumbs/Breadcrumbs.vue';
+<script setup>
+import Breadcrumbs from '../ui/breadcrumbs/Breadcrumbs.vue'
 import Curriculum from '../ui/home/Curriculum.vue'
+import HgAcademyImg from '@assets/images/hgAcademyImg.jpg'
+import AcademySupportIcon01 from '@assets/images/academy-support-icon-01.svg'
+import AcademySupportIcon02 from '@assets/images/academy-support-icon-02.svg'
+import AcademySupportIcon03 from '@assets/images/academy-support-icon-03.svg'
+import AcademySupportIcon04 from '@assets/images/academy-support-icon-04.svg'
 
-export default {
-    name: "CareerAcademy",
-    components: {
-        Breadcrumbs, Curriculum
-    },
-    data() {
-        return {
-            breadcrumbsItems: [
-                { label: 'ホーム', to: '/' },
-                { label: '教育業務', to: '/career_academy' }
-            ]
-        }
-    }
-}
-
+// Expose to template
+const breadcrumbsItems = [
+  { label: 'ホーム', to: '/' },
+  { label: '教育業務', to: '/career_academy' }
+]
 </script>
 <style scoped>
 @media (max-width:1023px){

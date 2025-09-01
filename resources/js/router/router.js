@@ -11,11 +11,12 @@ import Service from '../components/pages/Service.vue';
 import Faq from '../components/pages/Faq.vue';
 import Greeting from '../components/pages/Greeting.vue';
 import CareerAcademy from '../components/pages/CareerAcademy.vue';
-import NewsList from '../components/pages/NewsList.vue';
+import BlogsItems from '../components/pages/BlogsItems.vue';
 import PrivacyPolicy from '../components/pages/PrivacyPolicy.vue'
 import CookiePolicy from '../components/pages/CookiePolicy.vue';
 import CompanyContactForm from '../components/pages/CompanyContactForm.vue';
 import RecruitContactForm from '../components/pages/RecruitContactForm.vue';
+import BlogPage from '../components/pages/BlogPage.vue';
 
 
 
@@ -31,7 +32,8 @@ const routes = [
       { path: 'faq', name: 'Faq', component: Faq, },
       { path: 'greeting', name: 'Greeting', component: Greeting, },
       { path: 'career_academy', name: 'Career_Academy', component: CareerAcademy, },
-      { path: 'news_list', name: 'News_List', component: NewsList, },
+      { path: 'blogs_item', name: 'blog item', component: BlogsItems, },
+      { path: 'blog', name: 'blog', component: BlogPage, },
       { path: 'privacy_policy', name: 'Privacy Policy', component: PrivacyPolicy,},
       { path: 'cookie_policy', name: 'Cookie Policy', component: CookiePolicy,},
       { path: 'contact_company', name: 'Contact_Company', component: CompanyContactForm,},
