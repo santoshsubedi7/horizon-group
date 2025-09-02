@@ -30,7 +30,7 @@
   import HgCareerAcademy from '../ui/home/HgCareerAcademy.vue';
   import Progress from '../ui/home/Progress.vue';
   import Curriculum from '../ui/home/Curriculum.vue';
-  import Serviceflow from '../ui/home/Serviceflow.vue'
+  import Serviceflow from '../ui/home/ServiceFlow.vue'
 import faqComponent from '../ui/home/faq.component.vue';
 
   export default{
