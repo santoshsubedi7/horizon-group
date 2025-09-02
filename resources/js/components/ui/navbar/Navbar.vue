@@ -26,7 +26,7 @@
         <li><router-link to="/" class="nav-link transition-all duration-200 ease-in-out">ホーム</router-link></li>
         <li><router-link to="/service" class="nav-link transition-all duration-200 ease-in-out">サービス</router-link></li>
         <li><router-link to="/career_academy" class="nav-link transition-all duration-200 ease-in-out">教育業務</router-link></li>
-        <li><router-link to="/news_list" class="nav-link transition-all duration-200 ease-in-out">お知らせ</router-link> </li>
+        <li><router-link to="/blogs_item" class="nav-link transition-all duration-200 ease-in-out">お知らせ</router-link> </li>
         <li><router-link to="/faq" class="nav-link transition-all duration-200 ease-in-out">FAQ</router-link></li>
         <li><router-link to="/about" class="nav-link transition-all duration-200 ease-in-out">会社概要</router-link></li>
         <li><router-link to="/contact">
@@ -37,12 +37,12 @@
     <!-- Mobile/Tablet Menu -->
     <transition name="slide-fade">
       <ul v-if="isOpen" class="flex flex-col gap-4 mt-4 lg:hidden">
-        <li><a href="#" class="nav-link">ホーム</a></li>
-        <li><a href="#" class="nav-link">サービス</a></li>
-        <li><a href="#" class="nav-link">教育業務</a></li>
-        <li><a href="#" class="nav-link">お知らせ</a></li>
-        <li><a href="#" class="nav-link">FAQ</a></li>
-        <li><a href="#" class="nav-link">お問い合わせ</a></li>
+        <li><router-link to="/">ホーム</router-link></li>
+        <li><router-link to="/service">サービス</router-link></li>
+        <li><router-link to="/career_academy">教育業務</router-link></li>
+        <li><router-link to="/news_list">お知らせ</router-link></li>
+        <li><router-link to="/faq">FAQ</router-link></li>
+        <li><router-link to="/contact">お問い合わせ</router-link></li>
       </ul>
     </transition>
   </nav>

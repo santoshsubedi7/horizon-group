@@ -1,5 +1,6 @@
 <template>
   <nav class="flex text-sm my-4" aria-label="Breadcrumb">
+    <p class="mr-2"> <font-awesome-icon :icon="['fas','house']" /></p>
     <ol class="inline-flex items-center space-x-1 md:space-x-3">
       <li v-for="(crumb, idx) in items" :key="idx" class="inline-flex items-center">
         <template v-if="idx !== items.length - 1">

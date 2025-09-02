@@ -15,7 +15,9 @@
          <!-- Card 1 -->
          <div class="bg-white shadow-md rounded-md overflow-hidden flex flex-col">
             <!-- Image placeholder -->
-            <div class="bg-gray-200 h-48"></div>
+            <div class="bg-gray-200 h-48">
+               <img :src="HgBuildingImg" alt="hg-building" class="w-full h-full object-cover">
+            </div>
             <!-- Content -->
             <div class="p-6 flex flex-col flex-grow">
                <p class="text-sm text-gray-500 mb-2">受付時間　9:00–18:00　「土・日・祝日除く」</p>
@@ -34,7 +36,9 @@
          <!-- Card 2 -->
          <div class="bg-white shadow-md rounded-md overflow-hidden flex flex-col">
             <!-- Image placeholder -->
-            <div class="bg-gray-200 h-48"></div>
+            <div class="bg-gray-200 h-48">
+               <img :src="HgBusinessImg" alt="hg-business" class="w-full h-full object-cover">
+            </div>
             <!-- Content -->
             <div class="p-6 flex flex-col flex-grow">
                <p class="text-sm text-gray-500 mb-2">受付時間　9:00–18:00　「土・日・祝日除く」</p>
@@ -54,4 +58,6 @@
 </template>
 <script setup>
  import BlackButton from '../ui/button/BlackButton.vue';
+ import HgBuildingImg from '@assets/images/hb-building-img.jpg';
+ import HgBusinessImg from '@assets/images/hb-business-img.jpg';
 </script>

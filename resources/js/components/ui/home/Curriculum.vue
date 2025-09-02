@@ -9,8 +9,9 @@
           <h6 class="font-semibold mt-1">カリキュラム</h6>
         </div>
         <div class="hidden xl:block">
-        <a href="#" class="link flex items-center mt-6 font-medium">
-          <span class="pr-4">詳しくはこちら</span>  <font-awesome-icon :icon="['fas', 'arrow-right']" /></a>
+          <router-link to="/career_academy" class="link mt-6 font-medium"> 
+            <span class="pr-4">詳しくはこちら</span>  <font-awesome-icon :icon="['fas', 'arrow-right']" />
+          </router-link>
         </div>
       </div>
 
@@ -34,6 +35,8 @@ import ghCurriculum01 from '@assets/images/hg-curriculum01.jpg';
 import ghCurriculum02 from '@assets/images/hg-Curriculum02.jpg';
 import ghCurriculum03 from '@assets/images/hg-curriculum03.jpg';
 import ghCurriculum04 from '@assets/images/hg-curriculum04.jpg';
+import ghCurriculum05 from '@assets/images/hg-curriculum05.jpg';
+import ghCurriculum06 from '@assets/images/hg-curriculum06.jpg';
 
 export default {
   name: "Curriculum",
@@ -61,12 +64,12 @@ export default {
           desc: "接客に必要な日本語・英語の会話表現を習得します"
         },
         {
-          image: ghCurriculum01,
+          image: ghCurriculum05,
           title: "日本での生活マナー",
           desc: "日本社会での生活に必要な文化理解を深めます"
         },
         {
-          image: ghCurriculum02,
+          image: ghCurriculum06,
           title: "進路相談・個別指導",
           desc: "個人の目標に合わせたキャリアプランを作成します"
         }
