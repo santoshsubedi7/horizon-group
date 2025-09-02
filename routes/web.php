@@ -17,3 +17,7 @@ Route::prefix('admin')->group(function(){
     Route::delete('/client/{client}', [ClientController::class, 'destroy'])->name('clients.destroy');
     
 });
+
+Route::get('/', function () {
+    return view('welcome');
+});
