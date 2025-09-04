@@ -1,5 +1,5 @@
 <template>
-   <section class="w-full mt-48">
+   <section class="w-full mt-48 px-4 lg:px-0">
       <!-- page title -->
       <div class="pg-title w-[75%] mx-auto pb-9">
          <h1 class="font-semibold">CONTACTS</h1>
@@ -34,7 +34,7 @@
          </div>
 
          <!-- Card 2 -->
-         <div class="bg-white shadow-md rounded-md overflow-hidden flex flex-col">
+         <div class="bg-white shadow-md rounded-md overflow-hidden flex flex-col mt-4 md:mt-0">
             <!-- Image placeholder -->
             <div class="bg-gray-200 h-48">
                <img :src="HgBusinessImg" alt="hg-business" class="w-full h-full object-cover">

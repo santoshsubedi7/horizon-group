@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-1 mx-auto md:mx-auto-none">
+    <div class="flex-1">
       <div class="flex items-center">
         <img :src="logoImg" alt="Horizon Group Logo" class="w-[50px] h-[50px] mb-2" />
         <div class="ml-4">

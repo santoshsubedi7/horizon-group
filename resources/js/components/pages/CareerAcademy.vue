@@ -15,7 +15,7 @@
     </section>
 
     <!-- Image -->
-    <section class="flex flex-col lg:flex-row items-start gap-6 p-7 lg:p-12 lg:w-[75%] mx-auto mt-36">
+    <section class="flex flex-col lg:flex-row items-start gap-6 p-7 lg:p-12 lg:w-[75%] mx-auto mt-16 lg:mt-36">
         <div class="w-full lg:w-1/2">
             <div class="w-full rounded-lg">
                 <img :src="HgAcademyImg" alt="hg-academy"  class="w-full h-auto md:h-full object-cover rounded-lg">
@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="w-[75%] mx-auto mt-24 px-4 md:px-8 py-10 text-center">
+    <section class="lg:w-[75%] mx-auto mt-16 lg:mt-24 px-4 md:px-8 py-10 text-center">
         <!-- Heading -->
         <h4 class="w-full md:w-[50%] mx-auto text-center font-semibold leading-relaxed mb-10">
             働く準備のみならず、日本社会で

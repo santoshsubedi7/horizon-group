@@ -1,6 +1,6 @@
 <template>
   <section class="w-full mx-auto bg-slate-100 pt-16 md:pt-24 pb-16 md:pb-28">
-    <div class="xl:w-[75%] xl:mx-auto px-4 xl:px-0">
+    <div class="xl:w-[75%] xl:mx-auto xl:px-0">
       <!-- Section Header -->
       <div class=" mb-8 md:mb-10">
         <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">SERVICE</h2>

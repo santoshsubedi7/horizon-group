@@ -38,7 +38,7 @@
         </aside>
 
         <!-- RIGHT: FAQ panel -->
-        <aside class="lg:col-span-8">
+        <aside class="lg:col-span-8 px-6 lg:px-0">
             <div class="space-y-8">
                 <div v-for="(item, i) in activeFaqs" :key="i" class="border-b border-gray-200 pb-6">
                     <p class="font-bold mb-2">

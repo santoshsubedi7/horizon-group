@@ -46,3 +46,21 @@ h6{
   font-size:16px;
   color: #96999B;
 }
+/* Tablet */
+@media (max-width: 1023px) {
+  h1 { font-size: 40px; }
+  h2 { font-size: 34px; }
+  h3 { font-size: 26px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
+}
+/* Mobile */
+@media (max-width: 767px) {
+  h1 { font-size: 32px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 16px; }
+  h6 { font-size: 14px; }
+}
