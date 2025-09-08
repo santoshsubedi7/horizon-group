@@ -39,7 +39,7 @@ const breadcrumbsItems = [
   <section class="w-full mt-48">
     <div class="md:w-[75%] mx-auto px-7 lg:px-0 pb-9 page_title">
       <h1 class="font-semibold">CONTACT</h1>
-      <p class="font-semibold text-gray-600 text-sm">お仕事をお探しの求職者様 </p>
+      <p class="font-semibold text-gray-600 text-sm">お問い合わせ </p>
     </div>
   </section>
       <section>
@@ -52,7 +52,7 @@ const breadcrumbsItems = [
   <section class="w-full flex justify-center py-10 px-4">
     <div class="w-full max-w-3xl">
                   <div class="mb-8 lg:pb-9">
-                <h3 class="text-xl font-bold">求人方へ</h3>
+                <h3 class="text-xl font-bold pb-2">求職様へお問い合わせ</h3>
                 <p class="text-gray-600 text-sm">MAIL FORM メールでのお問い合わせ</p>
             </div>
       <form @submit.prevent="handleSubmit" class="space-y-6">

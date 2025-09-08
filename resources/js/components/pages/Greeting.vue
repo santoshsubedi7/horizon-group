@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full mt-48">
+    <section class="w-full my-48">
         <!-- page title -->
         <div class="pg-title w-[75%] mx-auto pb-9">
             <h1 class="font-semibold">GREETINGS</h1>
@@ -11,9 +11,11 @@
         </div>
         <!-- ご挨拶 -->
         <div class=" lg:w-[75%] mx-auto p-4 lg:p-16 mt-16">
-            <div class="flex justify-center">
+            <h3 class="text-center font-semibold pb-8">ご挨拶</h3>
+            <div class="flex justify-center pb-4">
+                
                 <span class="relative pb-4 text-sm lg:text-base pr-2"><font-awesome-icon :icon="['fas', 'quote-left']" /></span>
-                <h4 class="pb-6 font-semibold">成長を志す外国籍の皆様と、世界へ羽ばたく企業様をつなぐ架け橋を目指しております</h4>
+                <h5 class="pb-6 font-semibold">成長を志す外国籍の皆様と、世界へ羽ばたく企業様をつなぐ架け橋を目指しております</h5>
                 <span class="relative pb-4 pl-2"><font-awesome-icon :icon="['fas', 'quote-right']" /></span>
             </div>
                 
@@ -24,27 +26,22 @@
                 <p class="pb-4 text-sm lg:text-base">私たちは、単なる人材紹介にとどまりません。日本への留学を希望される方への日本語教育から、留学支援、生活支援、ビザ取得サポート、就労後のフォローまで、一人ひとりに寄り添った長期的かつ総合的なサポートを提供しています。</p>
                 <p class="pb-4 text-sm lg:text-base">日本の学校関係者様、企業の皆様に安心して外国人の皆様を迎え入れていただき、同時に外国人の皆様が日本で活躍できる環境を整えることが私たちの使命です。</p>
                 <p class="pb-4 text-sm lg:text-base">言語や文化の壁を越えて、お互いの可能性を広げる。そんな想いを胸に、HORIZON GROUPは誠実にチャレンジし続けます。</p>
-                <p class="pt-6 font-bold text-right">株式会社HORIZON GROUP</p>
+                <h4 class="pt-6 font-bold text-right">株式会社HORIZON GROUP</h4>
+                <p class="pt-2 font-bold text-right">代表取締役　ダンギ・ティラク</p>
             <!-- line -->
-            <div class="w-[50%] mx-auto h-[2px] bg-[#00B1E6] mt-16"></div>
-        </div>
-    </section>
 
-    <section>
-        <StaffProfileMobile v-if="isMobile"/>
-        <StaffProfilePc v-else/>
+        </div>
     </section>
 
 </template>
 <script>
 import Breadcrumbs from '../ui/breadcrumbs/Breadcrumbs.vue';
-import StaffProfilePc from '../ui/staff/StaffProfilePc.vue';
-import StaffProfileMobile from '../ui/staff/StaffProfileMobile.vue';
+
 
 export default{
     name: "Greeting",
     components:{
-        Breadcrumbs, StaffProfilePc, StaffProfileMobile
+        Breadcrumbs, 
     },
     data(){
         return{
@@ -55,23 +52,11 @@ export default{
             ]
         };
     },
-            created(){
-                window.addEventListener("resize", this.checkScreen);
-        },
-        beforeUnmount() {
-    window.removeEventListener("resize", this.checkScreen);
-  },
-  methods: {
-    checkScreen() {
-      this.isMobile = window.innerWidth < 768;
-    }
-  }
+
 
 }
 </script>
 
 <style>
-@media (max-width:1024px){
 
-}
 </style>

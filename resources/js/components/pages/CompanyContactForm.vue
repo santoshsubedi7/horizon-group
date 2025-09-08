@@ -40,7 +40,7 @@ const breadcrumbsItems = [
     <section class="w-full mt-48">
         <div class="md:w-[75%] mx-auto px-7 lg:px-0 pb-9 page_title">
             <h1 class="font-semibold">CONTACT</h1>
-            <p class="font-semibold">⼈材をお探しの企業様</p>
+            <p class="font-semibold">お問い合わせ</p>
         </div>
     </section>
     <section>
@@ -52,7 +52,7 @@ const breadcrumbsItems = [
     <section class="w-full flex justify-center py-10 px-4">
         <div class="w-full max-w-3xl">
             <div class="mb-8 lg:pb-9">
-                <h3 class="text-xl font-bold">企業方へ</h3>
+                <h3 class="text-xl font-bold pb-2">企業様へお問い合わせ</h3>
                 <p class="text-gray-600 text-sm">MAIL FORM メールでのお問い合わせ</p>
             </div>
 
@@ -78,7 +78,7 @@ const breadcrumbsItems = [
                     </div>
                 </div>
                 <div class="md:mb-10">
-                    <label class="block text-sm font-medium mb-2">役職 <span class="text-red-500">必須</span></label>
+                    <label class="block text-sm font-medium mb-2">経営者/役員 <span class="text-red-500">必須</span></label>
                     <div class="space-y-2">
                         <div class="flex items-center">
                             <input type="radio" id="manager" value="部長" v-model="form.position"

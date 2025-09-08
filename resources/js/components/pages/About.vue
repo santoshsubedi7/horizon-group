@@ -10,7 +10,7 @@
         <Breadcrumbs :items="breadcrumbItems" />
     </div>
     <section class="md:w-[75%] mx-auto px-6 md:px-0 mt-[128px] company-profile">
-        <img :src="officeImage" alt="office" class="w-full h-[600px] object-cover">
+        
         <div class="mt-[80px]">
             <div class="flex">
                 <h3 class="text-2xl font-semibold">COMPANY PROFILE</h3>
@@ -19,24 +19,63 @@
             <ul class="divide-y divide-gray-300 mt-[32px]">
                 <li class="flex py-8">
                     <p class="w-24 min-w-fit font-semibold">会社名</p>
-                    <p class="ml-8">株式会社HORIZON GROUP　（ホライゾングループ</p>
+                    <div>
+                        <p class="ml-8 pb-2">株式会社HORIZON GROUP　（ホライゾングループ）</p>
+                        <p class="ml-8">HORIZON GROUP Co., Ltd.</p>
+                    </div>
+                    
                 </li>
                 <li class="flex py-8">
-                    <p class="w-24 min-w-fit font-semibold">所在地</p>
-                    <p class="ml-8">東京都新宿区百人町1丁目20番26号バラードハイムムサシノビル806号室</p>
+                    <p class="w-24 min-w-fit font-semibold">住所</p>
+                    <div>
+                        <p class="ml-8">〒169-0073</p>
+                        <p class="ml-8">東京都新宿区百人町1丁目20番26号バラードハイムムサシノビル806号室</p>
+                    </div> 
                 </li>
-                <li class="flex py-8">
-                    <p class="w-24 min-w-fit font-semibold">TEL / FAX</p>
-                    <p class="ml-8">03-5497−8734 / 03-5497-8735</p>
-                </li>
-                <li class="flex py-8">
-                    <p class="w-24 min-w-fit font-semibold">設立</p>
+                 <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">会社設立</p>
                     <p class="ml-8">2024年05月</p>
                 </li>
                 <li class="flex py-8">
                     <p class="w-24 min-w-fit font-semibold">資本金</p>
+                    <p class="ml-8">10,000,000円</p>
+                </li>
+                <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">代表取締役/CEO</p>
+                    <p class="ml-8">ダンギ　ティラク</p>
+                </li>
+                                <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">取締役/COO</p>
+                    <p class="ml-8">スベディ　サントス</p>
+                </li>
+                                <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">URL</p>
+                    <p class="ml-8">https://www.horizongroup.co.jp/</p>
+                </li>
+                
+                                <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">Eメール</p>
+                    <p class="ml-8">info@horizongroup.co.jp</p>
+                </li>
+
+                 <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">TEL</p>
+                    <p class="ml-8">03-5497-8734</p>
+                </li>
+                 <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">FAX</p>
+                    <p class="ml-8">03-5497-8735</p>
+                </li>
+                <li class="flex py-8">
+                    <p class="w-24 min-w-fit font-semibold">事業内容</p>
                     <p class="ml-8">
-                        外国人向けの人材紹介<br>外国人労働者の就労支援サポート<br>南アジア各国からの留学生紹介<br>ビザ申請手続のサポート(新規・更新)<br>IT関連(アプリ開発・Webページ制作・SNS運用代行)</br>ネパールにおける日本語学校の運営<br>外国人インターンシップ受入サポート支援業務
+                        外国人向けの人材紹介<br>
+                        外国人労働者の就労支援サポート<br>
+                        南アジア各国からの留学生紹介<br>
+                        ビザ申請手続のサポート(新規・更新)<br>
+                        IT関連(アプリ開発・Webページ制作・SNS運用代行)</br>
+                        ネパールにおける日本語学校の運営<br>
+                        外国人インターンシップ受入サポート支援業務
                     </p>
                 </li>
                 <li class="flex py-8 border-b border-gray-300">
@@ -87,8 +126,9 @@
 <!-- javascript -->
 <script setup>
 import Breadcrumbs from '../ui/breadcrumbs/Breadcrumbs.vue';
-import officeImage from '@assets/images/office.jpg';
-import HgLocationBuilding from '@assets/images/hg-location-building.jpg'
+import HgLocationBuilding from '@assets/images/hg-location-building.jpg';
+
+
 
 const breadcrumbItems = [
     { label: 'ホーム', to: '/' },

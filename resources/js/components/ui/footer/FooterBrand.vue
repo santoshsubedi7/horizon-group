@@ -11,7 +11,7 @@
         </div>
       </div>
       <address class="not-italic mt-6">
-        <p class="text-[13px] leading-[1.4] my-[3px]">〒105-0011 東京都港区芝公園４丁目２−８</p>
+        <p class="text-[13px] leading-[1.4] my-[3px]">〒105-0011 東京都新宿区百人町1-20-26バラードハイムムサシノビル806</p>
         <p class="text-[13px] leading-[1.4] my-[3px]">Tel. 03-5497-8734 Fax. 03-5497-8735</p>
         <p class="text-[13px] leading-[1.4] my-[3px]">info@horizongroup.co.jp</p>
       </address>
@@ -19,7 +19,9 @@
       </template>
   
   <script>
-  import logoImg from '../../../../assets/logo.svg';
+
+  import logoImg from '@assets/images/logo.svg';
+
   export default {
     name: 'FooterBrand',
     data() {

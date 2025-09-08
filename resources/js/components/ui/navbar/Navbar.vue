@@ -29,7 +29,7 @@
       <!-- Navigation Links (Desktop) -->
       <ul class="hidden lg:flex items-center gap-8">
         <li><router-link to="/" class="nav-link transition-all duration-200 ease-in-out">ホーム</router-link></li>
-        <li><router-link to="/service" class="nav-link transition-all duration-200 ease-in-out">サービス</router-link></li>
+        <!-- <li><router-link to="/service" class="nav-link transition-all duration-200 ease-in-out">サービス</router-link></li> -->
         <li><router-link to="/career_academy" class="nav-link transition-all duration-200 ease-in-out">教育業務</router-link></li>
         <li><router-link to="/blogs_item" class="nav-link transition-all duration-200 ease-in-out">お知らせ</router-link></li>
         <li><router-link to="/faq" class="nav-link transition-all duration-200 ease-in-out">FAQ</router-link></li>
@@ -65,7 +65,7 @@
 <script setup>
 import { ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import hgLogo from '../../../../assets/logo.svg'
+import hgLogo from '@assets/images/logo.svg'
 import BlackButton from '../button/BlackButton.vue'
 
 const isOpen = ref(false)

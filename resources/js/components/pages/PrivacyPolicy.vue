@@ -84,8 +84,10 @@
             <div class="border-t border-gray-300 pt-4 mt-8 text-sm">
                 <h3 class="font-bold">CONTACT</h3>
                 <p>株式会社HORIZON GROUP</p>
-                <p>〒169-0073 東京都新宿区百人町2-9-6 ライオンズマンション806</p>
-                <p>TEL: 03-5497-8374 / Email: info@horizongroup.co.jp</p>
+                <p>〒169-0073 </p>
+                <p>東京都新宿区百人町1-20-26バラードハイムムサシノビル806</p>
+                <p>TEL: 03-5497-8374 / FAX: 03-5497-8735</p>
+                <p>Email: info@horizongroup.co.jp</p>
             </div>
         </div>
 

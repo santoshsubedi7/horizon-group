@@ -21,7 +21,7 @@
             <!-- Content -->
             <div class="p-6 flex flex-col flex-grow">
                <p class="text-sm text-gray-500 mb-2">受付時間　9:00–18:00　「土・日・祝日除く」</p>
-               <h4 class="text-lg font-semibold mb-3">企業方へお問い合わせ</h4>
+               <h4 class="text-lg font-semibold mb-3">企業様へお問い合わせ</h4>
                <p class="text-gray-600 text-sm flex-grow">
                   「企業方へお問い合わせ」では、当社のサービスに関心をお持ちの企業様向けに、
                   ご要望やご相談を受け付けています。事業内容や採用、採用に関するお問い合わせなど、
@@ -42,7 +42,7 @@
             <!-- Content -->
             <div class="p-6 flex flex-col flex-grow">
                <p class="text-sm text-gray-500 mb-2">受付時間　9:00–18:00　「土・日・祝日除く」</p>
-               <h4 class="text-lg font-semibold mb-3">求人方へお問い合わせ</h4>
+               <h4 class="text-lg font-semibold mb-3">求職様へお問い合わせ</h4>
                <p class="text-gray-600 text-sm flex-grow">
                   「求人方へお問い合わせ」では、当社への求人依頼や人材紹介に関するご相談を受け付けています。
                   採用のご要望や詳細について、お気軽にお問い合わせください。
