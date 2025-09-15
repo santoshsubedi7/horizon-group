@@ -4,7 +4,7 @@
       <!-- Section Header -->
       <div class=" mb-8 md:mb-10">
         <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">SERVICE</h2>
-        <h6 class="text-center mb-3 font-semibold">当社スーサ－ビス</h6>
+        <h6 class="text-center mb-3 font-semibold">当社サビース</h6>
 
         <div class="mt-8 md:mt-10 px-4 xl:px-0">
           <h4 class="font-bold mb-2">1. 人材紹介サービス</h4>
@@ -13,7 +13,8 @@
             <div class="absolute left-0 top-0 h-full w-1/4 bg-blue-500 rounded"></div>
           </div>
           <p class="text-sm md:text-base">
-            私たちは、日本で働きたい外国人と、優秀な人材を求める企業様をつなぐ人材紹介サービスを展開しています。採用から就労まで、すべてのステップで丁寧かつ的確にサポートいたします
+            私たちは、日本での就労を希望する外国人材と、優秀な人材を求める企業様をつなぐ人材紹介サービスを提供しています。
+採用から就労開始後のフォローまで、すべてのプロセスにおいて丁寧かつ的確にサポートいたします。
           </p>
         </div>
 

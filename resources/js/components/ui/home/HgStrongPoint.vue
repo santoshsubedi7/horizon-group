@@ -23,7 +23,7 @@
          <img :src="OurStrengthIcon02" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">各国からの留学に関する相談対応</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
-            提携エージェント制度を導入し、外国籍（ビジネスビザ・アルバイトビザ、留学、日本語・日本生活対応）など幅広いニーズに対応。個別の面談やカウンセリングを提供し、徹底サポートを行っております。
+            ネパール語をはじめ、外国語（ヒンディー語・タガログ語・英語・日本語）に対応できる人材がおります。日本への留学に向けた各国の語学スクールと提携し、留学のサポートを行っております。
           </p>
         </div>
 
@@ -32,7 +32,7 @@
           <img :src="OurStrengthIcon03" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">求職者と企業、双方に丁寧で迅速なマッチング</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
-            仕事の紹介はもちろん、就労前の手続き、相談対応などのフローワークも責任持って行うことで、企業様・求職者様双方に安心感、即時性を提供いたします。
+            当社は、求職者様への仕事紹介だけでなく、就労前の各種手続きやご相談、さらに就労後のフォローアップに至るまで、一貫して丁寧にサポートいたします。これにより、求職者様と企業様の双方に満足度の高い就職活動および採用活動を実現し、責任を持ってサービスを提供することで、安心感と迅速な対応をお届けいたします。
           </p>
         </div>
 
@@ -41,7 +41,7 @@
           <img :src="OurStrengthIcon04" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">在留資格・ビザ申請も全面的にサポート</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
-            就労（留学/技能実習ビザ）の相談実績多数。複雑・多様化するビザ手続きにプロがアドバイスを行い、迅速な対応を実現いたします。
+            就労ビザ（技人国／特定技能など）の申請支援や、更新・変更手続きのアドバイスも行える体制が整っており、外国人労働者の採用に慣れていない企業にも安心していただけます。
           </p>
         </div>
 
@@ -50,7 +50,7 @@
           <img :src="OurStrengthIcon05" alt="Consultation Icon" class="w-16 h-16"/>
           <span class="text-lg sm:text-[19px] md:text-xl text-[#3A3F44] font-semibold">就労後の生活・文化・日本語のフォロー</span>
           <p class="text-sm sm:text-[15px] md:text-base text-gray-600 leading-relaxed">
-            外国人材が安心して働き、暮らせるよう、文化や生活面でのアドバイス、日本語学習サポートなど、多面的に支援を行います。
+            外国人材が安心して働き・暮らせるよう、衣食住に関する。生活面のアドバイスや日本語教育のサポートも行っています。必要に応じて翻訳・通訳支援も対応可能です。
           </p>
         </div>
 

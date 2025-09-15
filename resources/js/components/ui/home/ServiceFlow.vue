@@ -5,6 +5,7 @@
       <div class="text-center mb-10">
         <h2 class="text-center font-semibold tracking-tight text-[#0D0F11]">SERVICE FLOW</h2>
         <h6 class="text-center mb-3 font-semibold">入社までの流れ</h6>
+        <p class="text-center mb-3">採用までの流れ専任スタッフが貴社に最適な採用プランを提案します</p>
       </div>
 
       <!-- Steps -->
@@ -44,7 +45,7 @@ export default {
       steps: [
         {
           number: 1,
-          title: 'お問い合わせ',
+          title: 'ご契約',
           description: 'サービスや人材についてお気軽にご相談ください。',
           icon: serviceFlowIcon01
         },
